@@ -16,7 +16,7 @@ def calculate_simple_interest(principal, rate, time):
     return interest, total_amount
 
 def main():
-    print("--- Simple Interest Calculator ---")
+    print("--- Advanced Simple Interest Calculator v2 ---")
     try:
         principal = float(input("Enter the principal amount (P): "))
         rate = float(input("Enter the annual interest rate in % (r): "))
